@@ -36,20 +36,20 @@ pip install -r requirements.txt
       └── medical_train      # 原始训练数据
       └── medical_eval       # 原始评估数据
       └── medical_test       # 原始测试数据
-   ├── mit-han-lab                 # AWQ量化模型所使用的数据集
+   ├── mit-han-lab            # AWQ量化模型所使用的数据集
 ├── models
-   ├── Qwen2_7B_Instruct           # 基座大模型
-├── saves                                # 存储lora微调的模型
+   ├── Qwen2_7B_Instruct      # 基座大模型
+├── saves                      # 存储lora微调的模型
 ├── vllm
-   ├── model.test.py               # 测试vllm框架
-   ├── vllm_predict.py             # vllm框架批次预测
-   ├── vllm_quantized.py           # 模型量化
-├── mian.py                              # 主函数
-├── merge_model_lora.py                  # 合并lora导出模型
-├── NER_lora.py                          # lora微调配置
-├── NER_util.py                          # 微调相关函数
-├── requirements.txt                     # 第三方依赖库
-├── README.md                            # 说明文档             
+   ├── model.test.py          # 测试vllm框架
+   ├── vllm_predict.py        # vllm框架批次预测
+   ├── vllm_quantized.py      # 模型量化
+├── mian.py                    # 主函数
+├── merge_model_lora.py        # 合并lora导出模型
+├── NER_lora.py                # lora微调配置
+├── NER_util.py                # 微调相关函数
+├── requirements.txt           # 第三方依赖库
+├── README.md                  # 说明文档             
 ```
 
 ## 6、微调与测试
