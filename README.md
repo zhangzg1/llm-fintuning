@@ -17,7 +17,7 @@ git clone https://github.com/zhangzg1/llm_lora.git
 cd llm_lora
 ```
 
-## 4、安装依赖缓解（Linux）
+## 4、安装依赖环境（Linux）
 
 ```
 # 创建虚拟环境
