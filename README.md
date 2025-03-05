@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 ## 5、代码结构
 
-```
+```text
 .
 ├── dataset                           
     ├── ChineseMedical
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 ├── NER_lora.py                # lora微调配置
 ├── NER_util.py                # 微调相关函数
 ├── requirements.txt           # 第三方依赖库
-├── README.md                  # 说明文档   
+├── README.md                  # 说明文档             
 ```
 
 ## 6、微调与测试
