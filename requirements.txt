@@ -1,6 +1,6 @@
 torch==2.1.2
 vllm==0.4.0
-transformers==4.39.1
+transformers==4.42.1
 peft==0.14.0
 tqdm==4.67.1
 pandas==2.2.3
