@@ -33,9 +33,9 @@ pip install -r requirements.txt
 .
 ├── dataset                           
     ├── ChineseMedical
-       └── medical_train        # 原始训练数据
-       └── medical_eval         # 原始评估数据
-       └── medical_test         # 原始测试数据
+        └── medical_train        # 原始训练数据
+        └── medical_eval         # 原始评估数据
+        └── medical_test         # 原始测试数据
     ├── mit-han-lab             # AWQ量化模型所使用的数据集
 ├── models
     ├── Qwen2_7B_Instruct       # 基座大模型
