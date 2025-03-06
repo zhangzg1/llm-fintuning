@@ -13,8 +13,8 @@
 ## 3、下载源码
 
 ```
-git clone https://github.com/zhangzg1/llm_lora.git
-cd llm_lora
+git clone https://github.com/zhangzg1/llm-lora.git
+cd llm-lora
 ```
 
 ## 4、安装依赖环境（Linux）
