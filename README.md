@@ -37,16 +37,15 @@ pip install -r requirements.txt
         └── medical_eval         # 原始评估数据
         └── medical_test         # 原始测试数据
     ├── mit-han-lab              # AWQ量化模型所使用的数据集
-├── llama_factory
-├── models
-    ├── Qwen2-7B-Instruct        # 基座大模型
+├── llama_factory                # llama-factory微调框架
+├── models                       # 基座大模型
+    ├── Qwen2-7B-Instruct        
     ├── chatglm3-6b
 ├── peft_code
     ├── merge_model_lora.py           # 合并lora导出模型
     ├── peft_lora.py                  # lora微调配置
     ├── peft_util.py                  # 微调相关函数
-├── ptuning
-├── saved                        # 存储lora微调的模型
+├── ptuning                      # ptuning微调
 ├── vllm_code
     ├── model.test.py            # 测试vllm框架
     ├── vllm_predict.py          # vllm框架批次预测
@@ -74,4 +73,4 @@ bash evaluate.sh      # 评估模型
 
 ```
 
-这三种微调方法都可以利用数据集微调大模型来完成中医药命名实体识别（NER）的任务。在使用 Ptuning 方法微调 chatglm3 模型时，由于官方的模型文件里面可能有错误，详细解决方法可以看[models/chatglm3-6b/README.md](https://github.com/zhangzg1/llm-fintuning/main/models/chatglm3-6b/README.md)
+这三种微调方法都可以利用数据集微调大模型来完成中医药命名实体识别（NER）的任务。在使用 Ptuning 方法微调 chatglm3 模型时，由于官方的模型文件里面可能有错误，详细解决方法可以看[models/chatglm3-6b/README.md](https://github.com/zhangzg1/llm-fintuning/tree/main/models/chatglm3-6b)
