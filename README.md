@@ -42,9 +42,9 @@ pip install -r requirements.txt
     ├── Qwen2-7B-Instruct        
     ├── chatglm3-6b
 ├── peft_code
-    ├── merge_model_lora.py           # 合并lora导出模型
-    ├── peft_lora.py                  # lora微调配置
-    ├── peft_util.py                  # 微调相关函数
+    ├── merge_model_lora.py      # 合并lora导出模型
+    ├── peft_lora.py             # lora微调配置
+    ├── peft_util.py             # 微调相关函数
 ├── ptuning                      # ptuning微调
 ├── vllm_code
     ├── model.test.py            # 测试vllm框架
