@@ -1,6 +1,6 @@
 torch==2.1.2
 vllm==0.4.0
-transformers==4.42.1
+transformers==4.45.1
 peft==0.14.0
 tqdm==4.67.1
 pandas==2.2.3
@@ -9,3 +9,9 @@ rouge==1.0.1
 jieba==0.42.1
 scikit-learn==1.6.1
 autoawq==0.2.8
+rouge-chinese==1.0.3
+nltk==3.9.1
+sse_starlette==2.2.1
+trl==0.9.4
+galore_torch==1.0
+gradio==4.18.0

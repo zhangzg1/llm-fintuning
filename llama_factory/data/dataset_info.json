@@ -1,0 +1,10 @@
+{
+  "chinese_medical": {
+    "file_name": "train.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}
